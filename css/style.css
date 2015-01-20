@@ -1,0 +1,41 @@
+/**
+ * 
+ * Author:  Stephen Nugent
+ * Email:   stephen@thehigherentity.com
+ * Website: http://www.thehigherentity.com
+ * 
+ * This file is inteneded for testing only and should 
+ * be customized to your own needs 
+ * 
+ */
+html, body {
+	padding:0; margin:0;
+}
+div.progress{
+	width:600px;
+	margin:15px auto;
+}
+div#error {
+	width:550px;
+	text-align:center;
+	font-size:0.9em;
+	color:darkred;
+}
+
+ul#thumbs { 
+	width:550px;
+	margin:10px auto;
+}
+ul#thumbs li { 
+	border:0px; 
+	display:inline-block; 
+	overflow:hidden; 
+	height:102px; 
+	width:102px; 
+	margin:9px; 
+}
+ul#thumbs li img { 
+	padding:0px;
+	height:auto;
+	width:100%;
+}
